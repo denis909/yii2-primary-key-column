@@ -2,7 +2,7 @@
 
 namespace denis909\yii;
 
-class PrimaryKeyColumn extends DataColumn
+class PrimaryKeyColumn extends \yii\grid\DataColumn
 {
 
     public $contentOptions = [
